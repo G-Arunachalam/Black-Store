@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>All products | Black store </title>
+	<link rel="stylesheet" href="style/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body onload="check()">
+
+<div class="heading">
+	</div class="container">
+		<div class="navbar">
+			<div class="logo">
+				<a href="/" ><img src="img/logo.png" width="125px"></a>
+			</div>
+			<nav>
+				<ul>
+					<li class="menu"><a href="/" >Home</a></li>
+					<li class="menu"><a href="/product">product</a></li>
+					<li class="menu"><a href="#"  class="active">Contact</a></li>
+					<li class="menu"><a href="/login">Account</a></li>
+
+				</ul>
+			</nav>
+		</div>
+				
+
+	</div>
+</div>
+<!------acc-page------>
+    <div class="acc-page">
+        <div class="container">
+            <div class="row">
+                <div class="col2">
+                    <img src="img/cmodel.png" width="100%">
+
+                </div>
+                <div class="col2">
+                    <div class="form-cont cont1">
+                        <div class="form-btn fbtn">
+                            <span class="contact-head">Get In Touch</span>
+                            <ul id="errprompt1">
+                            </ul>
+                        </div>
+                        <h6></h6>
+                        <form action="/mail" method="post">
+                            <input type="text" placeholder="Your Name" name="name" id="name" required>
+                            <input type="email" placeholder="Email Id" name="email" id="email"required>
+                            <input type="text" placeholder="subject" name="sub" id="sub" required>
+                            <textarea id="message" rows="4" name="message" placeholder="How can we help you?"></textarea>
+                            <button type="submit" class="btn lin" value="submit">Send</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Js for alert-->
+   
+</body>
+</html>
